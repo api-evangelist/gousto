@@ -1,8 +1,24 @@
 aid: gousto
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gousto.png
 name: Gousto
-description: 'Gousto is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Gousto is a British meal-kit retailer founded in 2012 by Timo Boldt and James Carter and
+  headquartered in Shepherd''s Bush, London. It delivers recipe boxes with pre-portioned fresh ingredients
+  and step-by-step recipes to homes across the UK, using proprietary data science, ERP, courier-integration
+  and warehouse-automation systems to run its subscription operation. A SoftBank Vision Fund portfolio
+  company, Gousto does not publish a public developer API; this profile captures its public digital surface
+  (website, engineering blog, GitHub organization, and coordinated vulnerability-disclosure program) for
+  the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/gousto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,46 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Meal Kit
+- Food Delivery
+- E-Commerce
+- Subscription
+- United Kingdom
 apis: []
+common:
+- type: Website
+  url: https://www.gousto.co.uk
+- type: SignUp
+  url: https://www.gousto.co.uk/signup
+- type: TermsOfService
+  url: https://www.gousto.co.uk/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.gousto.co.uk/privacy-and-cookies-policies
+- type: Blog
+  url: https://medium.com/gousto-engineering-techbrunch
+- type: GitHubOrganization
+  url: https://github.com/Gousto
+- type: SecurityTxt
+  url: well-known/gousto-security.txt
+- type: WellKnown
+  url: well-known/gousto-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/gousto-vulnerability-disclosure.yml
+- type: Security
+  url: https://docs.google.com/document/d/e/2PACX-1vTxhKb1GafHumjGIgtpx0ZbWyqmBsDUNC_xXaVrg0Mc8n6dGlDSN9l8PjjFeuwur2peLYoR5mDDUuvr/pub
+- type: DomainSecurity
+  url: security/gousto-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

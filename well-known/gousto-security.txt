@@ -1,0 +1,5 @@
+Contact: mailto:vdp@gousto.co.uk
+Expires: 2027-04-14T12:34
+Policy: https://docs.google.com/document/d/e/2PACX-1vTxhKb1GafHumjGIgtpx0ZbWyqmBsDUNC_xXaVrg0Mc8n6dGlDSN9l8PjjFeuwur2peLYoR5mDDUuvr/pub
+Preferred-Languages: en
+Canonical: https://gousto.co.uk/.well-known/security.txt

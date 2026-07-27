@@ -1,0 +1,14 @@
+{
+  "repo": "gousto",
+  "feeds": [
+    {
+      "source": "https://www.gousto.co.uk/privacy-and-cookies-policies",
+      "feed_url": "https://www.gousto.co.uk/privacy-and-cookies-policies",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}

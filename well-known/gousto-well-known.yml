@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.gousto.co.uk/.well-known/
+host: https://www.gousto.co.uk
+documents:
+- path: /.well-known/security.txt
+  status: 200
+  file: gousto-security.txt
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403
+notes: >-
+  Only /.well-known/security.txt is served (RFC 9116); it declares a
+  coordinated vulnerability-disclosure contact (vdp@gousto.co.uk) and a
+  published disclosure policy. The remaining probes return 403 from the CDN/WAF
+  rather than a genuine document. Gousto publishes no public API, OIDC, or
+  OAuth authorization-server metadata.
