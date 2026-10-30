@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gousto is a company surfaced as a portfolio company of softbank-vision-fund and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Gousto is a British meal-kit retailer founded in 2012 by Timo Boldt and James Carter and headquartered in Shepherd's Bush, London. It delivers recipe boxes with pre-portioned fresh ingredients and step-by-step recipes to homes across the UK, using proprietary data science, ERP, courier-integration and warehouse-automation systems to run its subscription operation. A SoftBank Vision Fund portfolio company, Gousto does not publish a public developer API; this profile captures its public digital surface (website, engineering blog, GitHub organization, and coordinated vulnerability-disclosure program) for the API Evangelist network.
 
-Backed by: softbank-vision-fund
+**Areas:** Company · Consumer · Meal Kit · Food Delivery · E-Commerce · Subscription · United Kingdom
+
+## Gousto on APIs.io
+
+Everything profiled for Gousto is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gousto/](https://apis.io/providers/gousto/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gousto Domain Security](https://apis.io/security/gousto/gousto-domain-security/)
+- [Gousto Vulnerability Disclosure](https://apis.io/security/gousto/gousto-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.gousto.co.uk)
+- [Sign up](https://www.gousto.co.uk/signup)
+- [Blog](https://www.gousto.co.uk/blog)
+- [Security](https://docs.google.com/document/d/e/2PACX-1vTxhKb1GafHumjGIgtpx0ZbWyqmBsDUNC_xXaVrg0Mc8n6dGlDSN9l8PjjFeuwur2peLYoR5mDDUuvr/pub)
+- [Terms of service](https://www.gousto.co.uk/terms-and-conditions)
+- [Privacy policy](https://www.gousto.co.uk/privacy-and-cookies-policies)
+- [GitHub](https://github.com/Gousto)
+
+## API Evangelist rating
+
+**Kin Score 9.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gousto/](https://apis.io/providers/gousto/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gousto: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gousto/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
